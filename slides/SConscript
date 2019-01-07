@@ -1,0 +1,6 @@
+# -*- python -*-
+Import('env')
+
+tdd = env.Latex('errors.tex')
+env.Default(tdd)
+
